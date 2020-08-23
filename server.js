@@ -4,9 +4,9 @@ var apiroutes = require ("./routes/apiRoutes");
 var htmlroutes = require("./routes/htmlRoutes");
 
 var app = express();
-var PORT  = process.env.PORT || 8080;
+var PORT  = process.env.PORT || 5251;
 
-// fireup the server
+// activate the server
 
 app.use(express.urlencoded({ extended : true }));
 app.use(express.json());
@@ -15,7 +15,7 @@ app.use("/api", apiroutes);
 app.use("/",htmlroutes);
 
 
-
+// listener
 app.listen(PORT,function(){
     console.log("App running on port http://localhost:" + PORT + "/");
 });
