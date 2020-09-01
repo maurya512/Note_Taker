@@ -59,7 +59,7 @@ In this project we will create an application that can be used to write, save, a
 - [Repo](https://github.com/maurya512/Note_Taker)
 
 # Heroku App:
-- [App](https://dashboard.heroku.com/apps/finalnotetaker)
+- [App](https://finalnotetaker.herokuapp.com/)
 
 # Screenshot:
   Screenshot of the home page
